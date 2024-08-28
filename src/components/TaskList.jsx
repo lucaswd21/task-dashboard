@@ -19,7 +19,7 @@ export default function TaskList({ tasks, search, concludeTask, confirmEdit, con
                     {
                         search.length ?
                             `Sua busca por "${search}" não obteve resultados` :
-                            'Nenhuma tarefa disponível'
+                            'Ainda não há tarefas'
                     }
                 </h1>
             )
